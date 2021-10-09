@@ -1,0 +1,45 @@
+.page-header {
+  background-color: var(--hero-bg-color);
+}
+.page-header_menu {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 6px;
+  align-items: center;
+  @media screen and (min-width: 768px) {
+    padding-top: 35px;
+  }
+  @media screen and (min-width: 1280px) {
+    justify-content: space-between;
+  }
+}
+
+.header-burger_icon {
+  width: 20px;
+  height: 12px;
+}
+
+.header-tablet-button_icon {
+  width: 4px;
+  height: 8px;
+  margin-left: 12px;
+}
+
+.header-nav_list {
+  display: none;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.31;
+  align-items: center;
+  color: var(--first-text-color);
+  @media screen and (min-width: 1280px) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.nav-list_item:not(:last-child) {
+  margin-right: 50px;
+}

@@ -1,0 +1,41 @@
+/* Global */
+body {
+  font-family: 'Titan One', cursive;
+  font-family: 'DM Sans', sans-serif;
+
+  // Color
+  --accent-color: #d41443;
+  --first-text-color: #ffffff;
+  --second-text-color: #000000;
+  --third-text-color: #ffa5ba;
+  --fourth-text-color: #907e82;
+  --hero-bg-color: #ffb8ca;
+  --section-bg-color: #fff5f6;
+  --comments-bg-color: #fafafa;
+  --ice-cream-cat-bg: #f0d1a5;
+  --ice-coffee-cat-bg: #c2e297;
+  --milkshakes-cat-bg: #ffb8ca;
+  --line-color: #e1e1e1;
+  --mobile-menu-bg: #e17992;
+}
+h1,
+h2,
+h3,
+p,
+ul,
+a,
+button {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.link {
+  color: inherit;
+}
