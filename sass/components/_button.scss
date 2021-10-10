@@ -32,6 +32,7 @@
   }
 }
 .products-button {
+  margin-right: 8px;
   cursor: pointer;
   min-width: 62px;
   font-style: normal;
@@ -44,6 +45,7 @@
   border: none;
   border-radius: 20px;
   @media screen and (min-width: 1280px) {
+    margin-right: 15px;
     min-width: 104px;
     padding: 14px 21px;
     font-size: 14px;
