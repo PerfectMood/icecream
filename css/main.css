@@ -170,6 +170,8 @@ img {
 .hero {
   min-height: 502px;
   background-color: var(--hero-bg-color);
+  position: relative;
+  overflow: hidden;
 }
 
 @media screen and (min-width: 768px) {
